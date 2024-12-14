@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informazioni</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuti nella mia seconda pagina</h1>
+        <p>Qui trovi tutte le informazioni per contattarmi e rimanere in contatto!</p>
+    </header>
+    
+    <!-- Sezione Contatti -->
+    <section id="contatti">
+        <h2>Contattami</h2>
+        <div class="info-contatti">
+            <p><strong>Email</strong>: belluominilorenzo@gmail.com</p>
+            <p><strong>Telefono</strong>: 334 749 5973</p>
+            <p><strong>Orari</strong>: Lun-Ven 7:00 - 21:00</p>
+        </div>
+
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Il tuo indirizzo email" required>
+
+            <label for="messagge">Messaggio</label>
+            <textarea id="messagge" name="messagge" rows="4" placeholder="Scrivi il tuo messaggio qui" required></textarea>
+        </form>
+
+        <!-- Social -->
+        <div class="social">
+            <h3>Seguimi sui social</h3>
+            <a href="https://www.linkedin.com/in/lorenzo-belluomini/" target="_blank">LinkedIn - Lorenzo Belluomini</a>
+            <a href="https://www.youtube.com/channel/UCyI4lifh6_faZpl7VGvBbKA" target="_blank">Canale YouTube</a>
+            <a href="https://github.com/lorenzo1118" target="_blank">GitHub - Lorenzo Belluomini</a>
+        </div>
+    </section>
+
+    <!-- Bottone per tornare alla pagina principale -->
+    <section id="navigazione">
+        <button onclick="ritornaAllaHome()" class="bottone">Torna alla pagina principale</button>
+    </section>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
